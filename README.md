@@ -35,10 +35,17 @@ We tryed different combination of paraneters, including adding/removing features
       - NAME
       - INCOME_AMT
   
-  - Data Preprocessing
-    - Target variable:
-      - IS_SUCCESSFUL
- 
+  - Compiling, Training, and Evaluating the Model
+    - Neurons:
+      - Layer 1: 80
+      - Layer 2: 40
+      - Layer 3: 12
+    - Layers: 4 (Including output layer)
+    - Activation Functions:
+      - Elu: 3
+      - Sigmoid: 1
+    - Those parameters were the ones that produced the highest accuracy level
+    
   - Precision:     0.99
   - Recall:        0.61
 
