@@ -45,6 +45,13 @@ We tryed different combination of paraneters, including adding/removing features
       - Elu: 3
       - Sigmoid: 1
     - Those parameters were the ones that produced the highest accuracy level
+    - However, target model performance was not achieved.  Our optimazation showed 0.7285 accuracy
+    - To increase model performance, we took the following steps:
+      - Remove INCOME_AMT feature
+      - Increase number of bins in APPLICATION_TYPE and CLASSIFICATION to 10 + others for each column
+      - Increase number of neurons in second layer to 40
+      - Create a third layer with 12 neurons
+      - Change activation function in layers to ELU
     
   - Precision:     0.99
   - Recall:        0.61
