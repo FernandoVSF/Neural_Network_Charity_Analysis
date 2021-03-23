@@ -22,9 +22,9 @@ We tryed different combination of paraneters, including adding/removing features
     - Target variable:
       - IS_SUCCESSFUL
 
-- Data Preprocessing
-  - Target variable:
-    - IS_SUCCESSFUL
+  - Data Preprocessing
+    - Target variable:
+      - IS_SUCCESSFUL
  
   - Precision:     0.99
   - Recall:        0.61
