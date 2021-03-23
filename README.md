@@ -18,10 +18,23 @@ The following outpits will be produced:
 ## Results
 We tryed different combination of paraneters, including adding/removing features, adding neurons to hidden layers, adding hidden layers, changing activation function, and the best results were obtained as follows:
 
-  -- Data Preprocessing
-    - Target variable:
+  - Data Preprocessing
+    - Target Variable:
       - IS_SUCCESSFUL
-
+    - Feature Variables:
+      - APPLICATION_TYPE
+      - AFFILIATION
+      - CLASSIFICATION
+      - USE_CASE
+      - ORGANIZATION
+      - STATUS
+      - SPECIAL_CONSIDERATIONS
+      - ASK_AMT
+    - Variables Removed from Input Data:
+      - EIN
+      - NAME
+      - INCOME_AMT
+  
   - Data Preprocessing
     - Target variable:
       - IS_SUCCESSFUL
