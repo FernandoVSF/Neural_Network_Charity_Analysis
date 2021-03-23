@@ -16,10 +16,12 @@ The following outpits will be produced:
 - Software: Python, SKLearn, Pandas, TensorFlow, Jupyter Notebook
 
 ## Results
-We analysed different models, and below we present the balanced accuracy, precision and recall scores for each of them:
+We tryed different combination of paraneters, including adding/removing features, adding neurons to hidden layers, adding hidden layers, changing activation function, and the best results were obtained as follows:
 
-### Naive Random Oversampling
-  - Bal. Accuracy: 0.65
+- Data Preprocessing
+  - Target variable:
+    - IS_SUCCESSFUL
+ 
   - Precision:     0.99
   - Recall:        0.61
 
