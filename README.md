@@ -41,6 +41,7 @@ We tryed different combination of paraneters, including adding/removing features
       - Layer 2: 40
       - Layer 3: 12
     - Layers: 4 (Including output layer)
+    - ![sum](/sum.png)
     - Activation Functions:
       - Elu: 3
       - Sigmoid: 1
