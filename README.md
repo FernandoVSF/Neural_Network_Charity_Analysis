@@ -18,7 +18,7 @@ The following outpits will be produced:
 ## Results
 We tryed different combination of paraneters, including adding/removing features, adding neurons to hidden layers, adding hidden layers, changing activation function, and the best results were obtained as follows:
 
-  - Data Preprocessing
+  -- Data Preprocessing
     - Target variable:
       - IS_SUCCESSFUL
 
