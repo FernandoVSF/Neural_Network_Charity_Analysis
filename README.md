@@ -41,7 +41,10 @@ We tryed different combination of paraneters, including adding/removing features
       - Layer 2: 40
       - Layer 3: 12
     - Layers: 4 (Including output layer)
+     
+    - Model Summary
     - ![sum](/sum.png)
+    
     - Activation Functions:
       - Elu: 3
       - Sigmoid: 1
@@ -53,9 +56,10 @@ We tryed different combination of paraneters, including adding/removing features
       - Increase number of neurons in second layer to 40
       - Create a third layer with 12 neurons
       - Change activation function in layers to ELU
-
-   ![naive](/naive.png)
   
 ## Summary
 
 These steps only increased marginally (each of them a little bit) model performance in terms of accuracy.  However, it is taking longer to run.  To solve this classification problem, we recommend trying a Random Forest, since it is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance.
+
+- Model Performance
+- ![perf](/perf.png)
