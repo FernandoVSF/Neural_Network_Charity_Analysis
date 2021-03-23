@@ -43,7 +43,7 @@ We tryed different combination of paraneters, including adding/removing features
     - Layers: 4 (Including output layer)
      
     - Model Summary
-    - ![sum](/sum.png)
+    ![sum](/sum.png)
     
     - Activation Functions:
       - Elu: 3
@@ -62,4 +62,4 @@ We tryed different combination of paraneters, including adding/removing features
 These steps only increased marginally (each of them a little bit) model performance in terms of accuracy.  However, it is taking longer to run.  To solve this classification problem, we recommend trying a Random Forest, since it is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance.
 
 - Model Performance
-- ![perf](/perf.png)
+![perf](/perf.png)
